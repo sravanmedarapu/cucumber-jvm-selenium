@@ -34,7 +34,7 @@ public class SignInSteps {
         HomePage.your_account.click();
         //HomePage.signin.click();
         LoginPage.email.sendKeys("amazonuk.testuser@gmail.com");
-        LoginPage.password.sendKeys("amazon123");
+        LoginPage.password.sendKeys("password");
         LoginPage.signin_button.click();
         Reporter.log("SignIn Action is successfully performed");
     }
